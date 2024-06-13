@@ -17,5 +17,6 @@ int main() {
 		std::cout << str << " is a palindrome." << std::endl;
 	else
 		std::cout << str << " is not a palindrome." << std::endl;
+
 	return 0;
 }
