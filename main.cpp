@@ -9,6 +9,11 @@ bool is_palindrome(std::string str) {
 }
 
 int main() {
+	std::cout << "Hello World!" << std::endl;
+	for (size_t i {0}; i < 10; i++) {
+		std::cout << i << std::endl;
+	}
+=======
 	// std::cout << "Hello World!" << std::endl;
 	std::string str {};
 	std::cout << "Enter any string: ";
@@ -17,6 +22,5 @@ int main() {
 		std::cout << str << " is a palindrome." << std::endl;
 	else
 		std::cout << str << " is not a palindrome." << std::endl;
-
 	return 0;
 }
